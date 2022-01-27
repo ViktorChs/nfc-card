@@ -12,7 +12,7 @@
   font-size: 18px;
   font-family: "Outfit", cursive;
 }
-.targeta {
+.card {
   background-color: hsl(216, 50%, 16%);
   width: 17.5rem;
   padding: 20px;
@@ -32,7 +32,7 @@
   overflow: hidden;
   cursor: pointer;
 }
-.A figure .capa {
+.A figure .cap {
   position: absolute;
   top: 0;
   width: 100%;
@@ -48,7 +48,7 @@
   opacity: 100%;
 }
 
-.nombre-nft {
+.name-nft {
   color: hsl(0, 0%, 100%);
   margin-bottom: 20px;
   font-size: 18px;
@@ -56,7 +56,7 @@
   font-family: "Outfit", sans-serif;
   font-weight: 600;
 }
-.nombre-nft:hover {
+.name-nft:hover {
   color: hsl(178, 100%, 50%);
 }
 .descripcion-nft {
@@ -72,7 +72,7 @@
   padding-bottom: 20px;
   margin-bottom: 10px;
 }
-.precio-nft {
+.price-nft {
   color: hsl(178, 100%, 50%);
   display: flex;
   align-items: center;
@@ -82,26 +82,26 @@
 .pd img {
   margin-right: 7px;
 }
-.dias {
+.days {
   color: hsl(215, 51%, 70%);
   display: flex;
   align-items: center;
 }
-.creadora {
+.creator {
   display: flex;
   align-items: center;
   color: hsl(215, 51%, 70%);
   font-size: 14px;
 }
-.creadora img {
+.creator img {
   width: 30px;
   margin-right: 10px;
 }
-.creadora span {
+.creator span {
   color: hsl(0, 0%, 100%);
   cursor: pointer;
 }
-.creadora span:hover {
+.creator span:hover {
   color: hsl(178, 100%, 50%);
 }
 
