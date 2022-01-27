@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Rowdies", cursiva;
+}
+body {
+  background: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 18px;
+  
+}
+.targeta {
+  background-color: hsl(216, 50%, 16%);
+  width: 17.5rem;
+  padding: 20px;
+  border-radius: 11px;
+  box-shadow: 0 0 20px 1em rgb(12,23,41);
+}
+
+.img-nft {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 11px;
+  position: relative;
+  transition: all 500ms ease-out;
+}
+.A figure{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.A figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 94%;
+    padding: 100px;
+    background: hsla(178, 100%, 50%, 0.466);
+    opacity: 0%;
+    border-radius: 11px;
+}
+.A figure:hover > .capa{
+    opacity: 100%;
+}
+    
+
+.nombre-nft {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nombre-nft:hover {
+  color: hsl(178, 100%, 50%);
+}
+.descripcion-nft {
+  color: hsl(215, 51%, 70%);
+  margin: 22px 0px;
+  
+
+}
+.pd {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px hsla(215, 52%, 70%, 0.219);
+  font-size: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.precio-nft {
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  align-items: center;
+}
+.pd img{
+    margin-right: 7px;
+}
+.dias {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  align-items: center;
+}
+.creadora {
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
+}
+.creadora img {
+  width: 30px;
+  margin-right: 10px;
+}
+.creadora span {
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.creadora span:hover{
+    color: hsl(178, 100%, 50%)
+}
+/*
+.attribution{
+    display: flex;
+
+}
+*/
